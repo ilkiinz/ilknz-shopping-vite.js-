@@ -1,11 +1,11 @@
 import "./Home.css";
-import Nav from "./Nav";
+import Nav from "../Navbar/Nav";
 function Home() {
     return(
         <>
         <Nav/>
         <div>
-           salam
+           Home
         </div>
         </>
     )

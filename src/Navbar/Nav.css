@@ -1,0 +1,24 @@
+.navbar-cont{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.cont-link{
+    display: flex;
+    gap: 65px;
+}
+
+.link{
+    color: rgb(57, 56, 56);
+    text-decoration: none;
+}
