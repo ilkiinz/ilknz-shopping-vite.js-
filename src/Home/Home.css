@@ -1,6 +1,6 @@
 .home-cont{
     width: 100%;
-    height: 101vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     position:absolute;
@@ -50,7 +50,7 @@
     gap: 85px;
     padding-top: 65px;
     width: 100%;
-    height: 1300px;
+    height: 1200px;
 }
 
 .main-shop-left{
@@ -91,15 +91,81 @@
 }
 
 .gender-btn {
-    width: 100%;
+    height: 50px;
+    width: 350px;
     background-color: transparent;
     border: none;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 27px;
-    margin-top: 30px;
+    margin: auto;
 }
 
+.cards-main-cont{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 950px;
+  
+}
 
+.example-1{
+    position: absolute;
+    z-index: 5;
+    bottom: 10%;
+    right: 19%;
+    width: 30%;
+    height: 300px;
+}
 
+.example-2{
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    left: 12%;
+    width: 30%;
+    height: 400px;
+}
+
+.info-card{
+    position: absolute;
+    z-index: 4;
+    top: 15%;
+    left: 36%;
+    height: 530px;
+    width: 32%;
+    background-color: rgb(143, 197, 102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    gap: 35px;
+    text-align: center;
+}
+
+.info-card h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font: 22px;
+    color: white;
+}
+
+.info-card p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font: 19px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-more{
+    height: 45px;
+    width: 200px;
+    background-color: black;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font: 21px;
+    color: white;
+}
