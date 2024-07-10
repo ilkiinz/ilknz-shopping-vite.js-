@@ -76,9 +76,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: beige;
+    background-color: rgb(86, 230, 252);
     border-radius: 4px;
 }
+
+
 
 .cart-promocode-input input{
 background: transparent;
