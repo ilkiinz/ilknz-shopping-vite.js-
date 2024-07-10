@@ -43,12 +43,12 @@ transition: 0.2s;
 .explore-menu hr{
     margin: 10px 0px;
     height: 2px;
-    background-color: #e12929;
+    background-color: rgb(3, 153, 255);
     border: none;
 }
 
 .explore-menu-list-item .active{
-    border: 4px solid tomato;
+    border: 4px solid rgb(3, 153, 175);
     padding: 2px;
 }
 
